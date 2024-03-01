@@ -1,6 +1,6 @@
 # Exe and Background
-$exeUrl = ""
-$bgUrl = ""
+$exeUrl = "https://github.com/CyberLions/fortnite-the-video-game-parenthesis-the-town-parenthesis/raw/main/red-scripts/GumpBit.exe"
+$bgUrl = "https://raw.githubusercontent.com/lfgberg/GumpBit/main/GumpBit.png"
 
 # Define the destination paths in the user's Downloads folder
 $exePath = "$env:USERPROFILE\Downloads\GumpBit.exe"
